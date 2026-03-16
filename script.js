@@ -29,7 +29,7 @@ function saveRequest(data) {
 document.querySelectorAll(".platform-download").forEach((card) => {
   const platform = card.getAttribute("data-platform");
   if (platform === "mac") {
-    card.setAttribute("href", "./downloads/Health-Solutions-mac.zip");
+    card.setAttribute("href", "https://drive.google.com/uc?export=download&id=1qmza7laKTSsVEEFeanH7W56oDEDymrni");
     card.setAttribute("download", "Health-Solutions-mac.zip");
     return;
   }
